@@ -16,7 +16,8 @@ export const projects: Project[] = [
   {
     slug: "task-manager",
     title: "Task Manager App",
-    description: "Aplicación de gestión de tareas con autenticación y tiempo real",
+    description:
+      "Aplicación de gestión de tareas con autenticación y tiempo real",
     image:
       "https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
@@ -37,13 +38,14 @@ export const projects: Project[] = [
 ];
 
 export const personalInfo = {
-  name: "Ricardo Coello Palomino",
+  name: "Yamile Ochoa Marin",
   title: "Full Stack Developer",
-  description: "Desarrollador apasionado por crear experiencias web excepcionales",
-  email: "tu@email.com",
-  github: "https://github.com/tuusuario",
-  linkedin: "https://linkedin.com/in/tuusuario",
-  siteUrl: "https://tuportafolio.com",
+  description:
+    "Desarrollador apasionado por crear experiencias web excepcionales",
+  email: "yamileochoa137@gmail.com",
+  github: "https://github.com/YamileOchoa",
+  linkedin: "https://linkedin.com/in/YamileOchoa",
+  siteUrl: "https://semana14-web-gamma.vercel.app/",
   avatar:
     "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
