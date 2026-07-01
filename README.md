@@ -6,9 +6,9 @@
 
 **Yamile Ochoa Marin**
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
@@ -50,8 +50,8 @@ npm -v
 Clona el repositorio y entra a la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/<tu-usuario>/my-portfolio.git
-cd my-portfolio
+git clone https://github.com/YamileOchoa/Semana14-Web.git
+cd Semana14-Web
 npm install
 ```
 
@@ -109,18 +109,6 @@ También puedes agregar tu propio `favicon.ico` en `src/app/`.
 4. Vercel detecta automáticamente que es un proyecto Next.js. Deja la configuración por defecto y dale a **Deploy**.
 5. Al finalizar obtendrás una URL tipo `https://my-portfolio-xxxx.vercel.app`.
 6. **Importante:** actualiza `siteUrl` en `src/lib/data.ts` con esa URL (o tu dominio personalizado, ver siguiente sección), haz commit y push — Vercel volverá a desplegar automáticamente y tu `sitemap.xml`/`robots.txt`/meta tags usarán la URL correcta.
-
----
-
-## 🌐 Dominio personalizado gratuito (requisito de la TAREA)
-
-1. Consigue un dominio gratuito en [Freenom](https://www.freenom.com/es/index.html) (ej. `.tk`, `.ml`, `.ga`, `.cf`, `.gq`) u otro proveedor gratuito de tu preferencia.
-2. En el dashboard de tu proyecto en Vercel, ve a **Settings > Domains**.
-3. Agrega tu dominio nuevo siguiendo la guía oficial: https://vercel.com/docs/domains/working-with-domains/add-a-domain
-4. Vercel te dará los registros DNS (generalmente un registro `A` apuntando a `76.76.21.21` y/o un `CNAME`) que debes configurar en el panel de DNS de Freenom.
-5. Espera la propagación DNS (puede tardar desde minutos hasta 24-48h).
-6. Verifica que el dominio quede activo (candado verde/https) en Vercel.
-7. Actualiza nuevamente `siteUrl` en `src/lib/data.ts` con tu dominio final y vuelve a hacer push.
 
 ---
 
